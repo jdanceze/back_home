@@ -115,7 +115,7 @@
         <header class="text-center">
             <h1 class="display-4 mb-4">Jetdo will Return</h1>
             <p class="font-italic text-muted mb-0">
-                Jetdo very sad, Jetdo want to go back to Thailand, Jetdo want some love TT
+                Jetdo is very sad, Jetdo wants to go back to Thailand, Jetdo wants some love &#128549
             </p>
             
         </header>
@@ -127,19 +127,19 @@
 
                     <!-- Countdown 4-->
                     <div class="rounded bg-gradient-4 text-white shadow p-5 text-center mb-5">
-                        <p class="mb-0 font-weight-bold text-uppercase">Jetdo will go back to Thailand in</p>
-                        <div id="clock-c" class="countdown py-4"></div>
+                        <p class="mb-0  text-uppercase">Jetdo will go back to Thailand in</p>
+                        <div id="clock-c" class="countdown pt-4"></div>
                     </div>
                     
                     <!-- Countdown 2-->
                     <div class="rounded bg-gradient-2 text-white shadow p-5 text-center mb-5">
-                        <p class="mb-0 font-weight-bold text-uppercase">or</p>
+                        <p class="mb-0  text-uppercase">or</p>
                         <div id="clock-a" class="countdown pt-4"></div>
                     </div>
 
                     <!-- Countdown 2-->
                     <div class="rounded bg-gradient-1 text-white shadow p-5 text-center mb-5">
-                        <p class="mb-0 font-weight-bold text-uppercase">or</p>
+                        <p class="mb-0  text-uppercase">or</p>
                         <div id="clock-b" class="countdown pt-4"></div>
                     </div>
 
@@ -148,17 +148,17 @@
 
                     <!-- Countdown 3-->
                     <div class="rounded bg-gradient-5 text-white shadow p-5 text-center mb-5">
-                        <p class="mb-0 font-weight-bold text-uppercase">or</p>
+                        <p class="mb-0  text-uppercase">or</p>
                         <div id="clock" class="countdown pt-4"></div>
                     </div>
 
                     <div class="rounded bg-gradient-6 text-white shadow p-5 text-center mb-5">
-                        <p class="mb-0 font-weight-bold text-uppercase">or</p>
+                        <p class="mb-0  text-uppercase">or</p>
                         <div id="clock-d" class="countdown pt-4"></div>
                     </div>
 
                     <div class="rounded bg-gradient-3 text-white shadow p-5 text-center mb-5">
-                        <p class="mb-0 font-weight-bold text-uppercase">or</p>
+                        <p class="mb-0  text-uppercase">or</p>
                         <div id="clock-e" class="countdown pt-4"></div>
                     </div>
 
@@ -179,39 +179,39 @@
 
         $('#clock-a').countdown('2022/12/23 23:00:00').on('update.countdown', function (event) {
             var $this = $(this).html(event.strftime(''
-                + '<span class="h1 font-weight-bold">%w</span> week%!w'
-                + '<span class="h1 font-weight-bold">%d</span> Days'));
+                + '<span class="h1 ">%w</span> week%!w'
+                + '<span class="h1 ">%d</span> Days'));
         });
 
         $('#clock-b').countdown('2022/12/23 23:00:00').on('update.countdown', function (event) {
             var $this = $(this).html(event.strftime(''
-                + '<span class="h1 font-weight-bold">%D</span> Days'));
+                + '<span class="h1 ">%D</span> Days'));
         });
 
         $('#clock-c').countdown('2022/12/23 23:00:00', function (event) {
             var $this = $(this).html(event.strftime(''
-                + '<span class="h1 font-weight-bold">%D</span> Day%!d'
-                + '<span class="h1 font-weight-bold">%H</span> Hr'
-                + '<span class="h1 font-weight-bold">%M</span> Min'
-                + '<span class="h1 font-weight-bold">%S</span> Sec'));
+                + '<span class="h1 ">%D</span> Day%!d'
+                + '<span class="h1 ">%H</span> Hr'
+                + '<span class="h1 ">%M</span> Min'
+                + '<span class="h1 ">%S</span> Sec'));
         });
 
         $('#clock').countdown('2022/12/23 23:00:00').on('update.countdown', function (event) {
             var $this = $(this).html(event.strftime(''
 
-                + '<span class="h1 font-weight-bold">%I</span> Hr'));
+                + '<span class="h1 ">%I</span> Hr'));
         });
 
         $('#clock-d').countdown('2022/12/23 23:00:00').on('update.countdown', function (event) {
             var $this = $(this).html(event.strftime(''
 
-                + '<span class="h1 font-weight-bold">%N</span> MIN'));
+                + '<span class="h1 ">%N</span> MIN'));
         });
 
         $('#clock-e').countdown('2022/12/23 23:00:00').on('update.countdown', function (event) {
             var $this = $(this).html(event.strftime(''
 
-                + '<span class="h1 font-weight-bold">%T</span> SEC'));
+                + '<span class="h1 ">%T</span> SEC'));
         });
 
 
